@@ -1,0 +1,9 @@
+--- opengrm-ngram-1.3.3/src/lib/Makefile.am.orig	2017-10-20 20:25:01.000000000 +0200
++++ opengrm-ngram-1.3.3/src/lib/Makefile.am	2018-03-10 10:53:56.224157010 +0100
+@@ -20,4 +20,5 @@
+ libngramhist_la_LIBADD =  $(DL_LIBS)
+ 
+ hist_arc_la_SOURCES = hist-arc.cc
+-hist_arc_la_LDFLAGS = -module
++hist_arc_la_LDFLAGS = -module -avoid-version
++hist_arc_la_LIBADD = -lfst -lfstscript -lm
