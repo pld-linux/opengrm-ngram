@@ -5,13 +5,13 @@
 Summary:	OpenGrm NGram library - making and modifying n-gram language models
 Summary(pl.UTF-8):	Biblioteka OpenGrm NGram - tworzenie i modyfikowanie modeli n-gramowych języków
 Name:		opengrm-ngram
-Version:	1.3.3
+Version:	1.3.4
 Release:	1
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: http://www.openfst.org/twiki/bin/view/GRM/NGramDownload
 Source0:	http://www.openfst.org/twiki/pub/GRM/NGramDownload/%{name}-%{version}.tar.gz
-# Source0-md5:	e8196908b433567a9f37d858bdc8aa1c
+# Source0-md5:	a158efb18c83c1f64bce5211d635af77
 Patch0:		%{name}-link.patch
 URL:		http://www.openfst.org/twiki/bin/view/GRM/NGramLibrary
 BuildRequires:	autoconf >= 2.50
@@ -111,9 +111,9 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/ngramsymbols
 %attr(755,root,root) %{_bindir}/ngramtransfer
 %attr(755,root,root) %{_libdir}/libngram.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libngram.so.133
+%attr(755,root,root) %ghost %{_libdir}/libngram.so.134
 %attr(755,root,root) %{_libdir}/libngramhist.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libngramhist.so.133
+%attr(755,root,root) %ghost %{_libdir}/libngramhist.so.134
 # dlopened module
 %attr(755,root,root) %{_libdir}/hist-arc.so
 
