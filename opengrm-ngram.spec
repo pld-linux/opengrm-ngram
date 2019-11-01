@@ -6,7 +6,7 @@ Summary:	OpenGrm NGram library - making and modifying n-gram language models
 Summary(pl.UTF-8):	Biblioteka OpenGrm NGram - tworzenie i modyfikowanie modeli n-gramowych języków
 Name:		opengrm-ngram
 Version:	1.3.4
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: http://www.openfst.org/twiki/bin/view/GRM/NGramDownload
